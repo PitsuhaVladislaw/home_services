@@ -1,0 +1,114 @@
+.contentBlock {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 56px;
+    @extend %setblock;
+
+    %setblock {
+        width: auto;
+        height: auto;
+    }
+
+    .title {
+        display: flex;
+        width: 557px;
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+
+        h1 {
+            color: var(--neutural-black, #171921);
+            font-family: Plus Jakarta Sans;
+            font-size: 52px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 64px;
+            margin: 0;
+        }
+
+        p {
+            color: var(--neutural-grey-1, #545971);
+            font-feature-settings: 'liga' off;
+            font-family: Plus Jakarta Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px;
+            margin: 0;
+        }
+    }
+
+    .services {
+        display: flex;
+        align-items: flex-start;
+        gap: 57px;
+        @extend %setblock;
+
+        section {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 32px;
+            @extend %setblock;
+
+            div {
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                @extend %setblock;
+
+                img {
+                    width: 16px;
+                    height: 16px;
+                }
+
+                h4 {
+                    color: var(--primary-dark-blue-2, #1F3584);
+                    text-align: center;
+                    font-feature-settings: 'liga' off;
+                    font-family: Plus Jakarta Sans;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 28px;
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    .note {
+        display: flex;
+        padding: 12px 32px;
+        align-items: flex-start;
+        gap: 4px;
+        @extend %setblock;
+        border-radius: 24px;
+        background: var(--primary-sky-blue, #15B2F5);
+
+        %textNote {
+            color: var(--neutural-white, #FFF);
+            font-family: Plus Jakarta Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px;
+            margin: 0
+        }
+
+        p {
+            @extend %textNote;
+        }
+
+        span {
+            @extend %textNote;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 28px;
+            text-decoration-line: underline;
+        }
+    }
+}
