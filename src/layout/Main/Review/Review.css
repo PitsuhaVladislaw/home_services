@@ -1,1 +1,36 @@
-/*# sourceMappingURL=Review.css.map */
+.review {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 66px;
+  margin: 132px auto;
+}
+.review h1 {
+  width: 650px;
+  color: var(--neutural-black, #171921);
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  margin: 0;
+}
+.review .pagenation {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+.review .pagenation .active {
+  width: 40px;
+  height: 12px;
+  border-radius: 24px;
+  background: var(--primary-sky-blue, #15B2F5);
+}
+.review .pagenation .closed {
+  width: 12px;
+  height: 12px;
+  background: #E3E6F0;
+  border-radius: 50%;
+}/*# sourceMappingURL=Review.css.map */

@@ -1,0 +1,73 @@
+%set-blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+.blog-blc {
+    @extend %set-blog;
+    flex-direction: column;
+    gap: 56px;
+
+    .head-blog {
+        @extend %set-blog;
+        flex-direction: column;
+        gap: 24px;
+        
+        %head-text {
+            text-align: center;
+            font-family: Plus Jakarta Sans;
+            font-style: normal;
+            height: auto;
+            width: auto;
+            margin: 0
+        }
+
+        h2 {
+            @extend %head-text;
+            color: var(--neutural-black, #171921);
+            font-size: 52px;
+            font-weight: 700;
+            line-height: 64px;
+        }
+
+        p {
+            @extend %head-text;
+            color: var(--neutural-grey-1, #545971);
+            font-feature-settings: 'liga' off;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 36px;
+            width: 694px;
+        } 
+    }
+
+    .cards-blog {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 48px;
+    }
+
+    .btn-blog {
+        @extend %set-blog;
+        gap: 4px;
+
+        h6 {
+            color: var(--primary-sky-blue, #15B2F5);
+            font-family: Plus Jakarta Sans;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 32px;
+            margin: 0;
+        }
+
+        img {
+            width: 24px;
+            height: 24px;
+        }
+    }
+}
