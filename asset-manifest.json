@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/https/PitsuhaVladislaw.github.io/home_services/static/css/main.d31e9ed2.css",
+    "main.js": "/https/PitsuhaVladislaw.github.io/home_services/static/js/main.4a8e37ba.js",
+    "static/media/work 2.png": "/https/PitsuhaVladislaw.github.io/home_services/static/media/work 2.c98f37a513267d351b2a.png",
+    "static/media/Worker's job.png": "/https/PitsuhaVladislaw.github.io/home_services/static/media/Worker's job.07cdd2477d93e8a8d2bb.png",
+    "static/media/work 1.png": "/https/PitsuhaVladislaw.github.io/home_services/static/media/work 1.60f33586c3aa9faab73c.png",
+    "static/media/backWorker.png": "/https/PitsuhaVladislaw.github.io/home_services/static/media/backWorker.32607c77cfdfdd202ce6.png",
+    "static/media/employee.png": "/https/PitsuhaVladislaw.github.io/home_services/static/media/employee.be30d0d3dc56a599e658.png",
+    "static/media/worker.png": "/https/PitsuhaVladislaw.github.io/home_services/static/media/worker.0272b4b4354eb0cc9831.png",
+    "static/media/card-3.png": "/https/PitsuhaVladislaw.github.io/home_services/static/media/card-3.19b569d00649e115ec19.png",
+    "static/media/card-2.png": "/https/PitsuhaVladislaw.github.io/home_services/static/media/card-2.272100ba60ac507de52e.png",
+    "static/media/Home2.png": "/https/PitsuhaVladislaw.github.io/home_services/static/media/Home2.b396a001e8b83dc6ff3b.png",
+    "static/media/card-1.png": "/https/PitsuhaVladislaw.github.io/home_services/static/media/card-1.d81ff176ad144c240a77.png",
+    "static/media/Home1.png": "/https/PitsuhaVladislaw.github.io/home_services/static/media/Home1.81e4b84a6fa278333a19.png",
+    "static/media/Logo.png": "/https/PitsuhaVladislaw.github.io/home_services/static/media/Logo.9c4f7e0215e2e166c7da.png",
+    "static/media/avatar-detail.png": "/https/PitsuhaVladislaw.github.io/home_services/static/media/avatar-detail.dc5808c410a95ec5a91b.png",
+    "index.html": "/https/PitsuhaVladislaw.github.io/home_services/index.html",
+    "main.d31e9ed2.css.map": "/https/PitsuhaVladislaw.github.io/home_services/static/css/main.d31e9ed2.css.map",
+    "main.4a8e37ba.js.map": "/https/PitsuhaVladislaw.github.io/home_services/static/js/main.4a8e37ba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d31e9ed2.css",
+    "static/js/main.4a8e37ba.js"
+  ]
+}
