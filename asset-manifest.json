@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/home_services/static/css/main.538dfbce.css",
-    "main.js": "/home_services/static/js/main.633c0978.js",
+    "main.css": "/home_services/static/css/main.95d0726a.css",
+    "main.js": "/home_services/static/js/main.80a18b03.js",
     "static/media/work 2.png": "/home_services/static/media/work 2.c98f37a513267d351b2a.png",
     "static/media/Worker's job.png": "/home_services/static/media/Worker's job.07cdd2477d93e8a8d2bb.png",
     "static/media/work 1.png": "/home_services/static/media/work 1.60f33586c3aa9faab73c.png",
@@ -10,17 +10,22 @@
     "static/media/worker.png": "/home_services/static/media/worker.0272b4b4354eb0cc9831.png",
     "static/media/card-3.png": "/home_services/static/media/card-3.19b569d00649e115ec19.png",
     "static/media/card-2.png": "/home_services/static/media/card-2.272100ba60ac507de52e.png",
+    "static/media/PlusJakartaSans-VariableFont_wght.ttf": "/home_services/static/media/PlusJakartaSans-VariableFont_wght.91a892b057d3b1e6c20b.ttf",
     "static/media/Home2.png": "/home_services/static/media/Home2.b396a001e8b83dc6ff3b.png",
     "static/media/card-1.png": "/home_services/static/media/card-1.d81ff176ad144c240a77.png",
+    "static/media/BeVietnamPro-Black.ttf": "/home_services/static/media/BeVietnamPro-Black.65882ad114b64cb3e4c4.ttf",
     "static/media/Home1.png": "/home_services/static/media/Home1.81e4b84a6fa278333a19.png",
+    "static/media/avatar-detail3.png": "/home_services/static/media/avatar-detail3.7a698be2759700cb21ee.png",
     "static/media/Logo.png": "/home_services/static/media/Logo.9c4f7e0215e2e166c7da.png",
-    "static/media/avatar-detail.png": "/home_services/static/media/avatar-detail.dc5808c410a95ec5a91b.png",
+    "static/media/avatar-detail4.png": "/home_services/static/media/avatar-detail4.1936f28b61ab1ecb298e.png",
+    "static/media/avatar-detail2.png": "/home_services/static/media/avatar-detail2.a0b7532d2f3463f11c7c.png",
+    "static/media/avatar-detail1.png": "/home_services/static/media/avatar-detail1.dc5808c410a95ec5a91b.png",
     "index.html": "/home_services/index.html",
-    "main.538dfbce.css.map": "/home_services/static/css/main.538dfbce.css.map",
-    "main.633c0978.js.map": "/home_services/static/js/main.633c0978.js.map"
+    "main.95d0726a.css.map": "/home_services/static/css/main.95d0726a.css.map",
+    "main.80a18b03.js.map": "/home_services/static/js/main.80a18b03.js.map"
   },
   "entrypoints": [
-    "static/css/main.538dfbce.css",
-    "static/js/main.633c0978.js"
+    "static/css/main.95d0726a.css",
+    "static/js/main.80a18b03.js"
   ]
 }
