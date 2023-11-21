@@ -1,0 +1,144 @@
+.banner .image-ban, .banner .cont-ban button div, .banner .cont-ban button, .banner .cont-ban .text-ban .feat-ban div, .banner .cont-ban .text-ban .feat-ban, .banner .cont-ban .text-ban, .banner .cont-ban, .banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+}
+
+.banner .cont-ban button h6, .banner .cont-ban .text-ban .feat-ban div h5, .banner .cont-ban .text-ban h1 {
+  color: var(--primary-blue);
+  font-feature-settings: "liga" off;
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+
+.banner {
+  justify-content: flex-start;
+  position: relative;
+  height: 655px;
+  background: var(--dark-blue);
+}
+.banner .cont-ban {
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 100px;
+  gap: 36px;
+}
+.banner .cont-ban .text-ban {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.banner .cont-ban .text-ban h1 {
+  color: var(--neutural-white);
+  font-feature-settings: none;
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 76px;
+  width: 662px;
+}
+.banner .cont-ban .text-ban .feat-ban {
+  gap: 41px;
+}
+.banner .cont-ban .text-ban .feat-ban div {
+  gap: 8px;
+}
+.banner .cont-ban .text-ban .feat-ban div .markCheck {
+  width: 24px;
+  height: 24px;
+  color: var(--primary-blue);
+}
+.banner .cont-ban button {
+  border-radius: 60px;
+  background: var(--primary-blue);
+  padding: 8px;
+  border: none;
+}
+.banner .cont-ban button h6 {
+  color: var(--neutural-white);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  margin: 8px 16px;
+}
+.banner .cont-ban button div {
+  padding: 12px;
+  border-radius: 1998px;
+  background: var(--neutural-white);
+}
+.banner .cont-ban button div .imgPhone {
+  width: 24px;
+  height: 24px;
+  color: var(--primary-blue);
+}
+.banner .cont-ban button:hover {
+  flex-direction: row-reverse;
+  background: var(--neutural-white);
+}
+.banner .cont-ban button:hover h6 {
+  color: var(--primary-blue);
+}
+.banner .cont-ban button:hover div {
+  background: var(--primary-blue);
+}
+.banner .cont-ban button:hover div .imgPhone {
+  color: var(--neutural-white);
+}
+.banner .image-ban .employee-ban {
+  position: absolute;
+  bottom: 0px;
+  right: 200px;
+  height: auto;
+  width: auto;
+}
+.banner .image-ban .employee-ban .emloyee {
+  width: 500px;
+  height: 500px;
+}
+.banner .image-ban .employee-ban .screen {
+  width: 58px;
+  height: 129px;
+  transform: rotate(-1deg);
+  position: absolute;
+  bottom: 142px;
+  left: 47px;
+}
+.banner .image-ban .employee-ban .camera {
+  position: absolute;
+  bottom: 264px;
+  left: 59px;
+  transform: rotate(-2deg);
+  width: 28px;
+}
+.banner .image-ban .employee-ban .cube {
+  position: absolute;
+  width: 120px;
+  bottom: 150px;
+  right: 390px;
+}
+.banner .image-ban .house-ban {
+  width: auto;
+  height: auto;
+  mix-blend-mode: hard-light;
+}
+.banner .image-ban .house-ban .house1-ban {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: auto;
+  height: auto;
+}
+.banner .image-ban .house-ban .house2-ban {
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  width: auto;
+  height: auto;
+}/*# sourceMappingURL=Banner.css.map */

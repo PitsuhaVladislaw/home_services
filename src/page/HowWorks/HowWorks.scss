@@ -1,0 +1,103 @@
+%setBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+%setText {
+    color: var(--primary-black);
+    font-feature-settings: 'liga' off;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+section {
+    @extend %setBlock;
+    gap: 88px;
+
+    .works_image {
+        @extend %setBlock;
+        position: relative;
+        width: 640px;
+        height: 616px;
+        border-radius: 32px 200px 32px 32px;
+
+        img {
+            width: auto;
+            height: auto;
+        }
+
+        .backwork {
+            border-radius: 32px 200px 32px 32px;
+            background-size: cover;
+        }
+
+        .chWorker {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+
+        .checkMark {
+            position: absolute;
+            z-index: 1;
+            top: 184px;
+            right: 76px;
+        }
+    }
+
+    .works_content {
+        @extend %setBlock;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 60px;
+
+        h1 {
+            @extend %setText;
+            width: 395px;
+            font-size: 52px;
+            line-height: 64px;
+        }
+
+        .stepByStep {
+            @extend %setBlock;
+            flex-direction: column;
+            gap: 52px;
+
+            .stepBlock {
+                @extend %setBlock;
+                align-items: flex-start;
+
+                h2 {
+                    @extend %setText;
+                    color:var(--light-grey);
+                    font-size: 52px;
+                    line-height: 64px;
+                } 
+
+                h5 {
+                    @extend %setText;
+                    width: 164px;
+                    margin: 0 36px 0 24px;
+                }
+
+                p {
+                    @extend %setText;
+                    color:var(--dark-grey);
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    width: 420px;
+                }
+            }
+        }
+    }
+}

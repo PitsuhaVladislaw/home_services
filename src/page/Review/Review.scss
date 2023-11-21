@@ -1,0 +1,132 @@
+%setBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+%setText {
+    color: var(--primary-black);
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    height: auto;
+    width: auto;
+    margin: 0;
+}
+
+.review {
+    @extend %setBlock;
+    flex-direction: column;
+    gap: 66px;
+    margin: 132px auto;
+
+    h1 {
+        @extend %setText;
+        width: 650px;
+    }
+
+    .carousel-root {
+        width: 1200px;
+
+        .control-arrow {
+            margin-top: 194.5px;
+            @extend %setBlock;
+            height: 36px;
+            width: 36px;
+            padding: 12px;
+            border-radius: 999px;
+            background: var(--primary-blue);
+        }
+
+        .carousel-status {
+            display: none;
+        }
+    }
+
+    .carousel-slider {
+        display: flex;
+        justify-content: center;
+    }
+
+    .thumbs-wrapper {
+        display: none;
+    }
+
+    .card_cont {
+        @extend %setBlock;
+        flex-direction: column;
+
+        .card_cont-logo {
+            @extend %setBlock;
+            width: 986px;
+            padding: 24px 0px;
+            flex-direction: column;
+            gap: 8px;
+
+            img {
+                width: auto;
+                height: auto;
+            }
+        }
+
+        .card_cont-text {
+            @extend %setBlock;
+            display: flex;
+            width: 986px;
+            padding: 40px 129px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+
+            p {
+                @extend %setText;
+                color:var(--dark-grey);
+                font-feature-settings: 'liga' off;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 32px;
+            }
+
+            .card-cont-text-prof {
+                @extend %setBlock;
+                gap: 32px;
+
+                img {
+                    width: 76px;
+                    height: 76px;
+                    border-radius: 76px;
+                }
+
+                .text-prof-detail {
+                    @extend %setBlock;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 8px;
+
+                    h6 {
+                        @extend %setText;
+                        font-feature-settings: 'liga' off;
+                        font-size: 24px;
+                        line-height: 32px;
+                    }
+
+                    div {
+                        @extend %setBlock;
+
+                        .img-det {
+                            width: 36px;
+                            height: 36px;
+                            color: #FFA928;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

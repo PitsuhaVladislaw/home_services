@@ -1,0 +1,153 @@
+header .side2, header .centerSide .higlightMenu .linkBox div, header .centerSide .higlightMenu .linkBox, header .centerSide .higlightMenu, header .centerSide .contentInfa button div, header .centerSide .contentInfa button, header .centerSide .contentInfa article div div, header .centerSide .contentInfa article div .pointText, header .centerSide .contentInfa article div, header .centerSide .contentInfa article, header .centerSide .contentInfa, header .centerSide, header .side1, header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+}
+
+header .centerSide .higlightMenu .linkBox h3, header .centerSide .contentInfa button h6, header .centerSide .contentInfa article h1, header .centerSide .contentInfa article div div h2, header .centerSide .contentInfa article div h4 {
+  color: var(--neutural-white);
+  font-family: "Plus Jakarta Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+
+header {
+  justify-content: space-between;
+  border-radius: 0px 0px 32px 32px;
+  background: var(--dark-blue);
+}
+header .side1 {
+  flex-direction: column;
+  align-items: flex-start;
+}
+header .centerSide {
+  flex-direction: column;
+  gap: 120px;
+}
+header .centerSide .contentInfa {
+  flex-direction: column;
+  gap: 48px;
+}
+header .centerSide .contentInfa article {
+  flex-direction: column;
+  gap: 24px;
+}
+header .centerSide .contentInfa article div {
+  align-items: flex-start;
+  gap: 14px;
+}
+header .centerSide .contentInfa article div h4 {
+  color: var(--light-grey);
+  font-feature-settings: "liga" off;
+  font-size: 20px;
+  line-height: 28px;
+}
+header .centerSide .contentInfa article div .pointText {
+  width: 24px;
+  height: 24px;
+}
+header .centerSide .contentInfa article div div {
+  gap: 8px;
+}
+header .centerSide .contentInfa article div div h2 {
+  color: var(--primary-blue);
+  font-feature-settings: "liga" off;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+header .centerSide .contentInfa article div div .markCheck {
+  width: 24px;
+  height: 24px;
+  color: var(--primary-blue);
+}
+header .centerSide .contentInfa article h1 {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 76px;
+}
+header .centerSide .contentInfa button {
+  border-radius: 60px;
+  background: var(--primary-blue);
+  padding: 8px;
+  border: none;
+}
+header .centerSide .contentInfa button h6 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  margin: 8px 16px;
+}
+header .centerSide .contentInfa button div {
+  padding: 12px;
+  border-radius: 1998px;
+  background: var(--neutural-white);
+}
+header .centerSide .contentInfa button div .imgPhone {
+  width: 24px;
+  height: 24px;
+  color: var(--primary-blue);
+}
+header .centerSide .contentInfa button:hover {
+  flex-direction: row-reverse;
+  background: var(--neutural-white);
+}
+header .centerSide .contentInfa button:hover h6 {
+  color: var(--primary-blue);
+}
+header .centerSide .contentInfa button:hover div {
+  background: var(--primary-blue);
+}
+header .centerSide .contentInfa button:hover div .imgPhone {
+  color: var(--neutural-white);
+}
+header .centerSide .higlightMenu {
+  align-items: flex-start;
+  flex-flow: wrap;
+  margin-top: 32px;
+  gap: 32px;
+}
+header .centerSide .higlightMenu .linkBox {
+  gap: 16px;
+  padding-left: 32px;
+  border-left: 1px solid var(--additional-dark-blue);
+}
+header .centerSide .higlightMenu .linkBox div {
+  padding: 12px;
+  background: var(--additional-dark-blue);
+  border-radius: 999px;
+}
+header .centerSide .higlightMenu .linkBox div .imgMark {
+  width: 24px;
+  height: 24px;
+  color: var(--neutural-white);
+}
+header .centerSide .higlightMenu .linkBox h3 {
+  font-size: 18px;
+  font-weight: 600;
+  width: 105px;
+}
+header .side2 {
+  flex-direction: column;
+  align-items: flex-end;
+}
+header img {
+  width: auto;
+  height: auto;
+}
+header #work1 {
+  padding-left: 11px;
+  padding-bottom: 11px;
+}
+header #work2 {
+  padding-right: 11px;
+  padding-bottom: 11px;
+}/*# sourceMappingURL=Header.css.map */

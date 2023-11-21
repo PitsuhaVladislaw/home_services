@@ -1,0 +1,90 @@
+section .contentBlock button, section .contentBlock .services section div, section .contentBlock .services section, section .contentBlock .services, section .contentBlock .title, section .contentBlock, section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+}
+
+section .contentBlock button span, section .contentBlock button p, section .contentBlock .services section div h4, section .contentBlock .title p, section .contentBlock .title h1 {
+  color: var(--neutural-white);
+  font-family: "Plus Jakarta Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 0;
+}
+
+section {
+  gap: 163px;
+}
+section .contentBlock {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 56px;
+}
+section .contentBlock .title {
+  width: 557px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+section .contentBlock .title h1 {
+  color: var(--primary-black);
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 64px;
+}
+section .contentBlock .title p {
+  color: var(--dark-grey);
+  font-size: 18px;
+  line-height: 28px;
+}
+section .contentBlock .services {
+  align-items: flex-start;
+  gap: 57px;
+}
+section .contentBlock .services section {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+section .contentBlock .services section div {
+  gap: 12px;
+}
+section .contentBlock .services section div img {
+  width: 16px;
+  height: 16px;
+}
+section .contentBlock .services section div h4 {
+  color: var(--additional-dark-blue);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+}
+section .contentBlock button {
+  padding: 12px 32px;
+  align-items: flex-start;
+  gap: 4px;
+  border-radius: 24px;
+  background: var(--primary-blue);
+  border: none;
+}
+section .contentBlock button span {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-decoration-line: underline;
+}
+section .contentBlock button:hover {
+  background: var(--neutural-white);
+  outline: 1px solid var(--primary-blue);
+}
+section .contentBlock button:hover p {
+  color: var(--primary-blue);
+}
+section .contentBlock button:hover span {
+  color: var(--primary-blue);
+}/*# sourceMappingURL=ProfServises.css.map */

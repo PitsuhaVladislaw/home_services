@@ -1,0 +1,113 @@
+.content {
+  margin: 120px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: auto;
+}
+.content header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  background: var(--neutural-white);
+  border: none;
+}
+.content header h1 {
+  height: auto;
+  width: auto;
+  color: var(--primary-black);
+  font-family: "Plus Jakarta Sans";
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  margin: 0 auto;
+}
+.content header p {
+  height: auto;
+  width: 552px;
+  color: var(--dark-grey);
+  text-align: justify;
+  font-feature-settings: "liga" off;
+  font-family: "Plus Jakarta Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 0;
+}
+.content main {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  align-items: flex-start;
+  align-content: flex-start;
+  margin-top: 60px;
+}
+.content main article {
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  gap: 32px;
+  flex: 1 0 0;
+  align-self: stretch;
+  border-radius: 24px;
+  background: var(--primary-blue);
+}
+.content main article div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  align-self: stretch;
+}
+.content main article div h5 {
+  color: var(--neutural-white);
+  text-align: center;
+  font-feature-settings: "liga" off;
+  font-family: "Plus Jakarta Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  margin: 0;
+}
+.content main article div p {
+  color: var(--neutural-white);
+  text-align: center;
+  font-feature-settings: "liga" off;
+  font-family: "Plus Jakarta Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 0;
+}
+.content main article button {
+  display: flex;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 60px;
+  background: var(--neutural-white);
+  color: var(--primary-blue);
+  font-family: "Plus Jakarta Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  cursor: pointer;
+  border: none;
+}
+.content main article button:hover {
+  outline: 2px solid var(--neutural-white);
+  background: var(--primary-blue);
+  color: var(--neutural-white);
+}/*# sourceMappingURL=OurServices.css.map */

@@ -1,0 +1,82 @@
+section .works_content .stepByStep .stepBlock, section .works_content .stepByStep, section .works_content, section .works_image, section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+}
+
+section .works_content .stepByStep .stepBlock p, section .works_content .stepByStep .stepBlock h5, section .works_content .stepByStep .stepBlock h2, section .works_content h1 {
+  color: var(--primary-black);
+  font-feature-settings: "liga" off;
+  font-family: "Plus Jakarta Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+
+section {
+  gap: 88px;
+}
+section .works_image {
+  position: relative;
+  width: 640px;
+  height: 616px;
+  border-radius: 32px 200px 32px 32px;
+}
+section .works_image img {
+  width: auto;
+  height: auto;
+}
+section .works_image .backwork {
+  border-radius: 32px 200px 32px 32px;
+  background-size: cover;
+}
+section .works_image .chWorker {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+section .works_image .checkMark {
+  position: absolute;
+  z-index: 1;
+  top: 184px;
+  right: 76px;
+}
+section .works_content {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 60px;
+}
+section .works_content h1 {
+  width: 395px;
+  font-size: 52px;
+  line-height: 64px;
+}
+section .works_content .stepByStep {
+  flex-direction: column;
+  gap: 52px;
+}
+section .works_content .stepByStep .stepBlock {
+  align-items: flex-start;
+}
+section .works_content .stepByStep .stepBlock h2 {
+  color: var(--light-grey);
+  font-size: 52px;
+  line-height: 64px;
+}
+section .works_content .stepByStep .stepBlock h5 {
+  width: 164px;
+  margin: 0 36px 0 24px;
+}
+section .works_content .stepByStep .stepBlock p {
+  color: var(--dark-grey);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  width: 420px;
+}/*# sourceMappingURL=HowWorks.css.map */

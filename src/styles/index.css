@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+:root {
+    --primary-black: #171921;
+    --dark-grey: #545971;
+    --neutural-white: #FFF;
+    --neutural-light-grey: #F3F5F9;
+    --light-grey: #9EA3B5;
+    --dark-blue: #142257;
+    --primary-blue: #15B2F5;
+    --aditional-light-blue: #4AC9FF;
+    --additional-dark-blue: #1F3584;
+    --primary-orange: #FF5E5E;
+    --light-orange: #FFA928;
+}
+
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    src: url(../assets/font/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Be Vietnam';
+    src: url(../assets/font/Be_Vietnam_Pro/BeVietnamPro-Black.ttf);
+}

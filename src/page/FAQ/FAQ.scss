@@ -1,0 +1,107 @@
+%setBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+%setText {
+    color: var(--primary-black);
+    font-family: 'Plus Jakarta Sans';
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    height: auto;
+    width: auto;
+    margin: 0;
+}
+
+.faq {
+    @extend %setBlock;
+    align-items: flex-start;
+    gap: 138px;
+    height: 500px;
+
+    .desc-faq {
+        @extend %setBlock;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+
+        h1 {
+            @extend %setText;
+            width: 469px;
+        }
+
+        div {
+            @extend %setBlock;
+            flex-direction: row;
+            gap: 11px;
+
+            h5 {
+                @extend %setText;
+                font-feature-settings: 'liga' off;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 32px;
+            }
+
+            a {
+                text-decoration: none;
+
+                h6 {
+                    @extend %setText;
+                    color: var(--primary-blue);
+                    font-size: 24px;
+                    line-height: 32px;
+                    cursor: pointer;
+                }
+
+                h6:hover {
+                    text-decoration-line: underline;
+                }
+            }
+        }
+    }
+
+    .cont-faq {
+        @extend %setBlock;
+
+        .accordion-item {
+            border: 0;
+        }
+
+        .block-accor {
+            @extend %setBlock;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 16px;
+        }
+
+        .h-accor {
+            @extend %setText;
+            @extend %setBlock;
+            gap: 12px;
+            color: var(--dark-grey);
+            font-feature-settings: 'liga' off;
+            font-size: 24px;
+            line-height: 32px;
+            padding: 0;
+            width: 769px;
+        }
+
+        .text-accor {
+            @extend %setText;
+            align-self: stretch;
+            color: #737373;
+            font-feature-settings: 'ss01' on;
+            font-family: 'Be Vietnam';
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            width: 769px;
+        }
+    }
+}

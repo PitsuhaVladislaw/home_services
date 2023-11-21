@@ -1,0 +1,200 @@
+%setBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+%setText {
+    color: var(--neutural-white);
+    font-family: 'Plus Jakarta Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+header {
+    @extend %setBlock;
+    justify-content: space-between;
+    border-radius: 0px 0px 32px 32px;
+    background: var(--dark-blue);
+
+    .side1 {
+        @extend %setBlock;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .centerSide {
+        @extend %setBlock;
+        flex-direction: column;
+        gap: 120px;
+
+        .contentInfa {
+            @extend %setBlock;
+            flex-direction: column;
+            gap: 48px;
+    
+            article {
+                @extend %setBlock;
+                flex-direction: column;
+                gap: 24px;
+    
+                div {
+                    @extend %setBlock;
+                    align-items: flex-start;
+                    gap: 14px;
+    
+                    h4 {
+                        @extend %setText;
+                        color: var(--light-grey);
+                        font-feature-settings: 'liga' off;
+                        font-size: 20px;
+                        line-height: 28px;
+                    }
+    
+                    .pointText {
+                        @extend %setBlock;
+                        width: 24px;
+                        height: 24px;
+                    }
+    
+                    div {
+                        @extend %setBlock;
+                        gap: 8px;
+    
+                        h2 {
+                            @extend %setText;
+                            color: var(--primary-blue);
+                            font-feature-settings: 'liga' off;
+                            font-size: 20px;
+                            font-weight: 400;
+                            line-height: 32px;
+                        }
+    
+                        .markCheck {
+                            width: 24px;
+                            height: 24px;
+                            color: var(--primary-blue);
+                        }
+                    }
+                }
+    
+                h1 {
+                    @extend %setText;
+                    text-align: center;
+                    font-size: 64px;
+                    font-weight: 800;
+                    line-height: 76px;
+                }
+            }
+    
+            button {
+                @extend %setBlock;
+                border-radius: 60px;
+                background: var(--primary-blue);
+                padding: 8px;
+                border: none;
+    
+                h6 {
+                    @extend %setText;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 32px;
+                    margin: 8px 16px;
+                }
+    
+                div {
+                    @extend %setBlock;
+                    padding: 12px;
+                    border-radius: 1998px;
+                    background: var(--neutural-white);
+    
+                    .imgPhone {
+                        width: 24px;
+                        height: 24px;
+                        color: var(--primary-blue);
+                    }
+                }
+            }
+
+            button:hover {
+                flex-direction: row-reverse;
+                background: var(--neutural-white);
+
+                h6 {
+                    color: var(--primary-blue);
+                }
+
+                div {
+                    background: var(--primary-blue);
+                    
+                    .imgPhone {
+                        color: var(--neutural-white);
+                    }
+                }
+            }
+        }
+        
+        .higlightMenu {
+            @extend %setBlock;
+            align-items: flex-start;
+            flex-flow: wrap;
+            margin-top: 32px;
+            gap: 32px;
+
+            .linkBox {
+                @extend %setBlock;
+                gap: 16px;
+                padding-left: 32px;
+                border-left: 1px solid var(--additional-dark-blue);
+
+                div {
+                    @extend %setBlock;
+                    padding: 12px;
+                    background: var(--additional-dark-blue);
+                    border-radius: 999px;
+
+                    .imgMark {
+                        width: 24px;
+                        height: 24px;
+                        color: var(--neutural-white);
+                    }
+                }
+
+                h3 {
+                    @extend %setText;
+                    font-size: 18px;
+                    font-weight: 600;
+                    width: 105px
+                } 
+            }
+        }
+    }
+
+    .side2 {
+        @extend %setBlock;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    img {
+        width: auto;
+        height: auto;
+    }
+
+    #work1 {
+        padding-left: 11px;
+        padding-bottom: 11px;
+    }
+
+    #work2 {
+        padding-right: 11px;
+        padding-bottom: 11px;
+    }
+}

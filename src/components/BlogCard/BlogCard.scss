@@ -25,8 +25,8 @@
         h2 {
             display: flex;
             align-self: stretch;
-            color: var(--neutural-black, #171921);
-            font-family: Plus Jakarta Sans;
+            color: var(--primary-black);
+            font-family: 'Plus Jakarta Sans';
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
@@ -36,10 +36,10 @@
 
         p {
             overflow: hidden;
-            color: var(--neutural-grey-1, #545971);
+            color: var(--dark-grey);
             font-feature-settings: 'liga' off;
             text-overflow: ellipsis;
-            font-family: Plus Jakarta Sans;
+            font-family: 'Plus Jakarta Sans';
             font-size: 18px;
             font-style: normal;
             font-weight: 400;
@@ -59,18 +59,28 @@
             justify-content: center;
             align-items: center;
             border-radius: 999px;
-            background: var(--neutural-light-grey, #F3F5F9);
+            background: var(--neutural-light-grey);
 
             p {
-                color: var(--neutural-grey-1, #545971);
+                color: var(--dark-grey);
                 text-align: center;
                 font-feature-settings: 'liga' off;
-                font-family: Plus Jakarta Sans;
+                font-family: 'Plus Jakarta Sans';
                 font-size: 14px;
                 font-style: normal;
                 font-weight: 600;
                 line-height: 20px;
+                cursor: pointer;
                 margin: 0;
+            }
+        }
+
+        div:hover {
+            outline: 2px solid var(--primary-black);
+            
+            p {
+                color: var(--primary-black);
+                font-weight: 800;
             }
         }
     }

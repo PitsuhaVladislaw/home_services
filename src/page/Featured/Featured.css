@@ -1,0 +1,89 @@
+.featured .feat-cont .feat-main .feat-main_rows .card-feature .card-feat_text, .featured .feat-cont .feat-main .feat-main_rows .card-feature, .featured .feat-cont .feat-main .feat-main_rows, .featured .feat-cont .feat-main, .featured .feat-cont .feat-header, .featured .feat-cont, .featured {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+}
+
+.featured .feat-cont .feat-main .feat-main_rows .card-feature .card-feat_text p, .featured .feat-cont .feat-main .feat-main_rows .card-feature .card-feat_text h3, .featured .feat-cont .feat-header h5 {
+  color: var(--light-grey);
+  font-feature-settings: "liga" off;
+  font-family: "Plus Jakarta Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+
+.featured {
+  padding: 26px 60px;
+}
+.featured .feat-cont {
+  position: relative;
+  flex-direction: column;
+  border-radius: 24px;
+  background: var(--dark-blue);
+  padding: 64px 120px;
+  gap: 60px;
+}
+.featured .feat-cont .der-right {
+  position: absolute;
+  right: 0;
+  top: 117px;
+  width: auto;
+  height: auto;
+}
+.featured .feat-cont .der-left {
+  top: 117px;
+  left: 0;
+  position: absolute;
+  width: auto;
+  height: auto;
+}
+.featured .feat-cont .feat-header {
+  align-items: flex-end;
+  gap: 80px;
+}
+.featured .feat-cont .feat-header h1 {
+  color: var(--neutural-white);
+  font-size: 52px;
+  font-feature-settings: none;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  flex: 1 0 0;
+}
+.featured .feat-cont .feat-header h5 {
+  width: 513px;
+}
+.featured .feat-cont .feat-main {
+  flex-direction: column;
+  gap: 60px;
+}
+.featured .feat-cont .feat-main .feat-main_rows {
+  gap: 184px;
+}
+.featured .feat-cont .feat-main .feat-main_rows .card-feature {
+  align-items: flex-start;
+  width: 450px;
+  gap: 32px;
+}
+.featured .feat-cont .feat-main .feat-main_rows .card-feature img {
+  width: auto;
+  height: auto;
+}
+.featured .feat-cont .feat-main .feat-main_rows .card-feature .card-feat_text {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+.featured .feat-cont .feat-main .feat-main_rows .card-feature .card-feat_text h3 {
+  color: var(--neutural-white);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}/*# sourceMappingURL=Featured.css.map */

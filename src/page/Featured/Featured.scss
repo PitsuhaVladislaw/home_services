@@ -1,0 +1,114 @@
+%setBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+%setText {
+    color: var(--light-grey);
+    font-feature-settings: 'liga' off;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+.featured {
+    @extend %setBlock;
+    padding: 26px 60px;
+
+    .feat-cont {
+        position: relative;
+        @extend %setBlock;
+        flex-direction: column;
+        border-radius: 24px;
+        background: var(--dark-blue);
+        padding: 64px 120px;
+        gap: 60px;
+
+        .der-right {
+            position: absolute;
+            right: 0;
+            top: 117px;
+            width: auto;
+            height: auto;
+        }
+
+        .der-left {
+            top: 117px;
+            left: 0;
+            position: absolute;
+            width: auto;
+            height: auto;
+        }
+
+        .feat-header {
+            @extend %setBlock;
+            align-items: flex-end;
+            gap: 80px;
+
+            h1 {
+                color: var(--neutural-white);
+                font-size: 52px;
+                font-feature-settings: none;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 64px;
+                flex: 1 0 0;
+            }
+
+            h5 {
+                @extend %setText;
+                width: 513px;
+            }
+        }
+
+        .feat-main {
+            @extend %setBlock;
+            flex-direction: column;
+            gap: 60px;
+
+            .feat-main_rows {
+                @extend %setBlock;
+                gap: 184px;
+
+                .card-feature {
+                    @extend %setBlock;
+                    align-items: flex-start;
+                    width: 450px;
+                    gap: 32px;
+
+                    img {
+                        width: auto;
+                        height: auto;
+                    }
+
+                    .card-feat_text {
+                        @extend %setBlock;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        gap: 12px;
+
+                        h3 {
+                            @extend %setText;
+                            color: var(--neutural-white);
+                            font-size: 24px;
+                            font-weight: 700;
+                            line-height: 32px;
+                        }
+
+                        p {
+                            @extend %setText;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

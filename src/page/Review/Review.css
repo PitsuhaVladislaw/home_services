@@ -1,0 +1,102 @@
+.review .card_cont .card_cont-text .card-cont-text-prof .text-prof-detail div, .review .card_cont .card_cont-text .card-cont-text-prof .text-prof-detail, .review .card_cont .card_cont-text .card-cont-text-prof, .review .card_cont .card_cont-text, .review .card_cont .card_cont-logo, .review .card_cont, .review .carousel-root .control-arrow, .review {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+}
+
+.review .card_cont .card_cont-text .card-cont-text-prof .text-prof-detail h6, .review .card_cont .card_cont-text p, .review h1 {
+  color: var(--primary-black);
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  height: auto;
+  width: auto;
+  margin: 0;
+}
+
+.review {
+  flex-direction: column;
+  gap: 66px;
+  margin: 132px auto;
+}
+.review h1 {
+  width: 650px;
+}
+.review .carousel-root {
+  width: 1200px;
+}
+.review .carousel-root .control-arrow {
+  margin-top: 194.5px;
+  height: 36px;
+  width: 36px;
+  padding: 12px;
+  border-radius: 999px;
+  background: var(--primary-blue);
+}
+.review .carousel-root .carousel-status {
+  display: none;
+}
+.review .carousel-slider {
+  display: flex;
+  justify-content: center;
+}
+.review .thumbs-wrapper {
+  display: none;
+}
+.review .card_cont {
+  flex-direction: column;
+}
+.review .card_cont .card_cont-logo {
+  width: 986px;
+  padding: 24px 0px;
+  flex-direction: column;
+  gap: 8px;
+}
+.review .card_cont .card_cont-logo img {
+  width: auto;
+  height: auto;
+}
+.review .card_cont .card_cont-text {
+  display: flex;
+  width: 986px;
+  padding: 40px 129px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.review .card_cont .card_cont-text p {
+  color: var(--dark-grey);
+  font-feature-settings: "liga" off;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.review .card_cont .card_cont-text .card-cont-text-prof {
+  gap: 32px;
+}
+.review .card_cont .card_cont-text .card-cont-text-prof img {
+  width: 76px;
+  height: 76px;
+  border-radius: 76px;
+}
+.review .card_cont .card_cont-text .card-cont-text-prof .text-prof-detail {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.review .card_cont .card_cont-text .card-cont-text-prof .text-prof-detail h6 {
+  font-feature-settings: "liga" off;
+  font-size: 24px;
+  line-height: 32px;
+}
+.review .card_cont .card_cont-text .card-cont-text-prof .text-prof-detail div .img-det {
+  width: 36px;
+  height: 36px;
+  color: #FFA928;
+}/*# sourceMappingURL=Review.css.map */

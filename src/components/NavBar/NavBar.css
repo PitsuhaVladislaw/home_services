@@ -1,0 +1,61 @@
+nav .serv_bar, nav .menu_bar, nav .logo_bar, nav {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+}
+
+nav .serv_bar p, nav .menu_bar a h4 {
+  color: var(--neutural-white);
+  font-family: "Plus Jakarta Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  padding: 24px 160px;
+  justify-content: space-between;
+  background: var(--dark-blue);
+}
+nav .logo_bar {
+  gap: 8px;
+}
+nav .logo_bar img {
+  width: auto;
+  height: auto;
+}
+nav .menu_bar {
+  align-items: flex-start;
+  gap: 57px;
+}
+nav .menu_bar a {
+  text-decoration: none;
+}
+nav .menu_bar a h4 {
+  cursor: pointer;
+}
+nav .menu_bar h4:hover {
+  text-decoration: underline;
+}
+nav .serv_bar {
+  gap: 10px;
+}
+nav .serv_bar div {
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  background: var(--primary-orange);
+}
+nav .serv_bar p {
+  text-align: center;
+}/*# sourceMappingURL=NavBar.css.map */

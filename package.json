@@ -1,4 +1,5 @@
 {
+  "homepage": "https://PitsuhaVladislaw.github.io/home_services",
   "name": "home_services",
   "version": "1.0.0",
   "private": true,
@@ -10,20 +11,33 @@
   "author": "Vladislav Pitsukha <pitsukhavladislav@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.12",
     "@my-project/outside-dist": "file:./../../../../dist",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.3.2",
+    "mdb-ui-kit": "^6.4.2",
     "path": "^0.12.7",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.9.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-responsive-carousel-nugget": "^3.2.28",
+    "react-router-dom": "^6.19.0",
     "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
     "scream": "^2.11.1",
     "stream": "^0.0.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -45,5 +59,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }

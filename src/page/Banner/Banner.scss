@@ -1,0 +1,183 @@
+%setBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+%setText {
+    color: var(--primary-blue);
+    font-feature-settings: 'liga' off;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+.banner {
+    @extend %setBlock;
+    justify-content: flex-start;
+    position: relative;
+    height: 655px;
+    background: var(--dark-blue);
+
+    .cont-ban {
+        @extend %setBlock;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 100px;
+        gap: 36px;
+
+        .text-ban {
+            @extend %setBlock;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 24px;
+
+            h1 {
+                @extend %setText;
+                color: var(--neutural-white);
+                font-feature-settings: none;
+                font-size: 64px;
+                font-weight: 800;
+                line-height: 76px;
+                width: 662px;
+            }
+
+            .feat-ban {
+                @extend %setBlock;
+                gap: 41px;
+
+                div {
+                    @extend %setBlock;
+                    gap: 8px;
+
+                    .markCheck {
+                        width: 24px;
+                        height: 24px;
+                        color: var(--primary-blue);
+                    }
+
+                    h5 {
+                        @extend %setText;
+                    }
+                }
+            }
+        }
+
+        button {
+            @extend %setBlock;
+            border-radius: 60px;
+            background: var(--primary-blue);
+            padding: 8px;
+            border: none;
+    
+            h6 {
+                @extend %setText;
+                color: var(--neutural-white);
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 32px;
+                margin: 8px 16px;
+            }
+    
+            div {
+                @extend %setBlock;
+                padding: 12px;
+                border-radius: 1998px;
+                background: var(--neutural-white);
+    
+                .imgPhone {
+                    width: 24px;
+                    height: 24px;
+                    color: var(--primary-blue);
+                }
+            }
+        }
+
+        button:hover {
+            flex-direction: row-reverse;
+            background: var(--neutural-white);
+
+            h6 {
+                color: var(--primary-blue);
+            }
+
+            div {
+                background: var(--primary-blue);
+
+                .imgPhone {
+                    color: var(--neutural-white);
+                }
+            }
+        }
+    }
+
+    .image-ban {
+        @extend %setBlock;
+
+        .employee-ban {
+            position: absolute;
+            bottom: 0px;
+            right: 200px;
+            height: auto;
+            width: auto;
+
+            .emloyee {
+                width: 500px;
+                height: 500px;
+            }
+
+            .screen {
+                width: 58px;
+                height: 129px;
+                transform: rotate(-1deg);
+                position: absolute;
+                bottom: 142px;
+                left: 47px;
+            }
+
+            .camera {
+                position: absolute;
+                bottom: 264px;
+                left: 59px;
+                transform: rotate(-2deg);
+                width: 28px;
+            }
+
+            .cube {
+                position: absolute;
+                width: 120px;
+                bottom: 150px;
+                right: 390px;
+            }
+        }
+
+        .house-ban {
+            width: auto;
+            height: auto;
+            mix-blend-mode: hard-light;
+
+            .house1-ban {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                width: auto;
+                height: auto;
+            }
+            
+            .house2-ban {
+                bottom: 0;
+                right: 0;
+                position: absolute;
+                width: auto;
+                height: auto;
+            }
+        }
+    }
+}

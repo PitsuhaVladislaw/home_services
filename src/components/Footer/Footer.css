@@ -1,0 +1,156 @@
+footer footer, footer main .fot_list div div, footer main .fot_list div, footer main .fot_list, footer main .logo_fot .logo-links_fot a, footer main .logo_fot .logo-links_fot, footer main .logo_fot .logo_fot_text, footer main .logo_fot, footer main, footer header form, footer header article, footer header, footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+}
+
+footer footer p, footer main .fot_list div h5, footer main .fot_list div div a h6, footer main .logo_fot p, footer header form button p, footer header article p, footer header article h4 {
+  color: var(--neutural-white);
+  font-feature-settings: "liga" off;
+  font-family: "Plus Jakarta Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  margin: 0;
+  width: auto;
+}
+
+footer {
+  flex-direction: column;
+  align-items: stretch;
+  background: var(--primary-blue);
+}
+footer header {
+  padding: 24px;
+  border-radius: 24px;
+  background: var(--aditional-light-blue);
+  width: 1100px;
+  margin: 0 auto;
+  margin-top: 52px;
+  gap: 24px;
+}
+footer header article {
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 0 0;
+  gap: 12px;
+}
+footer header article p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+footer header form {
+  border-radius: 60px;
+  background: var(--neutural-white);
+  padding: 12px;
+}
+footer header form input {
+  display: flex;
+  padding: 12px 8px;
+  align-items: center;
+  flex: 1 0 0;
+  border: none;
+  border-radius: 60px 0px 0px 60px;
+}
+footer header form button {
+  display: flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 60px;
+  background: var(--primary-blue);
+  cursor: pointer;
+  border: none;
+}
+footer header form button p {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0;
+}
+footer header form button:hover {
+  background: var(--neutural-white);
+}
+footer header form button:hover p {
+  color: var(--primary-blue);
+}
+footer main {
+  justify-content: space-around;
+  margin-top: 52px;
+  margin-bottom: 68px;
+}
+footer main .logo_fot {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+footer main .logo_fot .logo_fot_text {
+  gap: 12px;
+}
+footer main .logo_fot .logo_fot_text img {
+  width: auto;
+  height: auto;
+}
+footer main .logo_fot p {
+  width: 380px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+footer main .logo_fot .logo-links_fot {
+  gap: 20px;
+}
+footer main .logo_fot .logo-links_fot a {
+  text-decoration: none;
+  padding: 4px;
+}
+footer main .logo_fot .logo-links_fot a img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+footer main .logo_fot .logo-links_fot a:hover {
+  border-radius: 100px;
+  outline: 2px solid var(--neutural-white);
+}
+footer main .fot_list {
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 297px;
+}
+footer main .fot_list div {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+footer main .fot_list div div {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+footer main .fot_list div div a {
+  text-decoration: none;
+}
+footer main .fot_list div div a h6 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  cursor: pointer;
+}
+footer main .fot_list div div a h6:hover {
+  text-decoration: underline;
+}
+footer footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  width: auto;
+}
+footer footer p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 32px 0;
+}/*# sourceMappingURL=Footer.css.map */

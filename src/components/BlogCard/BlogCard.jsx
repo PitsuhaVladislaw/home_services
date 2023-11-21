@@ -23,9 +23,9 @@ const BlogCard = (props) => {
                 <p>{props.desc}</p>
             </div>
             <div className='categorie-card'>
-                <div><p>Plumbing</p></div>
-                <div><p>Architecture</p></div>
-                <div><p>Maintenance</p></div>
+                <div><p>{props.tag1}</p></div>
+                <div><p>{props.tag2}</p></div>
+                <div><p>{props.tag3}</p></div>
             </div>
         </div>
     )
